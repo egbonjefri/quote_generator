@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/egbonjefri.github.io/quote_generator/static/css/main.5b9b554a.css",
+    "main.js": "/egbonjefri.github.io/quote_generator/static/js/main.e873f856.js",
+    "static/js/787.6be8d9fe.chunk.js": "/egbonjefri.github.io/quote_generator/static/js/787.6be8d9fe.chunk.js",
+    "index.html": "/egbonjefri.github.io/quote_generator/index.html",
+    "main.5b9b554a.css.map": "/egbonjefri.github.io/quote_generator/static/css/main.5b9b554a.css.map",
+    "main.e873f856.js.map": "/egbonjefri.github.io/quote_generator/static/js/main.e873f856.js.map",
+    "787.6be8d9fe.chunk.js.map": "/egbonjefri.github.io/quote_generator/static/js/787.6be8d9fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b9b554a.css",
+    "static/js/main.e873f856.js"
+  ]
+}
