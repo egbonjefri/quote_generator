@@ -2,7 +2,7 @@
   "name": "fcc_quote_generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "egbonjefri.github.io/quote_generator",
+  "homepage": "fcc-quotes.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
