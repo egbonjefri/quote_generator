@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+}
+a {
+  color: inherit !important
+}
+a:hover {
+  border-bottom: solid 1px black;
+  color: black !important;
+  transition: 0.35s ease-in-out;
+}
+.quote-start {
+  transform: scale(-1) !important;
+}
+.quotes p {
+  font-size: 1.5rem
+}
+.App {
+  color: white;
+}
+.author-icon {
+  font-size: 1rem
+}
+.quotes {
+  margin-top: 15rem;
+  background-color: white;
+  transition: 1s ease-in-out;
+
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+   margin: 1rem 0rem !important;
+   position: relative;
+}
+button:hover {
+  opacity: 0.5;
+  transition: 0.35s ease-in-out;
+
+}
+.animate {
+  opacity: 0.1;
+  transition: 1s ease-in-out;
+  transform: translate(45px, 0)
+}
+
+
+.twit {
+  font-size: 2em;
+  float: left;
+  left: 5%;
+  position: absolute;
+  margin: 1.25rem
+}
+.fb {
+  font-size: 2em;
+  float: left;
+  left: 10%;
+  position: absolute;
+  margin: 1.25rem;
+  border: none;
+}
+@media (max-width: 774px) {
+  .fb {
+   margin: 1.25rem 3rem
+  }
+}
+@media (max-width: 444px) {
+  .twit {
+   margin: 1.25rem -0.5rem
+  }
+  .fb {
+    margin: 1.25rem 1rem
+   }
+}
