@@ -75,13 +75,15 @@ return (
               </div>) :
               (posts.map((item) =>
               <div className='quote-text'>
-                  <h4 key={item.id}><i className="quote-start material-icons">format_quote</i>{item.body}</h4>
-                   <p><i className="author-icon material-icons">remove</i>{item.author}</p>
-                  <p><b>{item.quotesource}</b></p>
+                  <h4 key={item.id}><i className="quote-start material-icons">format_quote</i><em>{item.body}</em></h4>
+                   <p><i className="author-icon material-icons">remove</i><b><em>{item.author}</em></b></p>
+                  <p><em>{item.quotesource}</em></p>
+
                   </div>)
               )
+              
           }
-          <a 
+                            <a 
   href={href}><Icon className='twit' icon="akar-icons:twitter-fill" /></a>
           <a href='https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F'><Icon className='fb' icon="akar-icons:facebook-fill" /></a>
 

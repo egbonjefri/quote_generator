@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+ 
 
 }
 a {
@@ -22,16 +23,24 @@ a:hover {
 }
 .App {
   color: white;
+
+
 }
 .author-icon {
   font-size: 1rem
 }
 .quotes {
-  margin-top: 15rem;
   background-color: white;
   transition: 1s ease-in-out;
-
+  min-height: 15rem;
+  margin-top: 15%
 }
+@media (max-width: 1004px) {
+.quotes {
+  min-height: 18rem;
+}
+}
+
 .loading {
   display: flex;
   justify-content: center;
